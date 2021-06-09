@@ -1,0 +1,9 @@
+### Standorte ausgeben
+
+Um einen Standort einer Person bzw. eines Datensatzes auszugeben, könnt ihr den folgenden Befehl nutzen. 
+
+<center>
+	print(_beispielstandortdaten.gibStandort(0)_)
+</center>
+
+_beispielstandortdaten_ ist der Name des Datensatzes, den ihr beim Einlesen (s.o.) festgelegt habt. Statt der _0_ könnt ihr verschiedene natürliche Zahlen eingeben. Diese bestimmen die Nummer des auszugebenden Standorts. Um bspw. den zweiten Standort einzugeben, ersetzt ihr die _0_ durch eine _1_.

@@ -1,0 +1,12 @@
+### Hinweis 2 - Standorte einzeichnen
+
+Um alle Standorte des Tattages einzuzeichnen, nutze den Befehl _zeichneStandorteEin(...)_. Dieser Befehl wird auf eine Karte ausgeführt, muss also hinter eine Karte geschrieben werden. Das sollte wie folgt notiert werden:
+
+
+<center>
+	_meineKarte.zeichneStandorteEin(pDaten, pFarbe)_
+</center>
+
+Das Attribut _pDaten_ wird durch den Namen des Datensatzes zu den Standortdaten ersetzt. _pFarbe_ wird durch __'red'__, __'blue'__ oder __'green'__ ersetzt.
+
+__Hinweis__: Wenn du auf einen Marker auf der Karte klickst, wird dir die Uhrzeit angezeigt, zu der dieser Standort aufgenommen wurde.

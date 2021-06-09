@@ -1,0 +1,10 @@
+### Hinweis 1 - Karte erstellen
+
+Zum Erstellen einer Karte definierst du eine Karte mit dem folgenden Befehl, wobei der Mittelpunkt in Koordinatendarstellung eingegeben wird (Bsp: (51.7189205,8.7575093)):
+
+
+<center>
+	_meineKarte = Karte( Mittelpunkt )_
+</center>
+
+_Mittelpunkt_ ist durch die Koordinaten zu ersetzen.

@@ -1,0 +1,15 @@
+### Hinweis zur Heatmap - Programmgerüst
+
+```
+
+...
+
+koordinaten = []                                        #Erstellen einer leeren Liste mit dem Namen koordinaten
+    
+for zaehler in range(0,eureDaten.anzahlStandorte()):    #Bestimmen der Reichweite des Zählers
+    ...                                                 #TODO: Koordinaten des Standorts zur Liste hinzufügen
+    pass
+
+...
+
+```

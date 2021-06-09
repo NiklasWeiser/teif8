@@ -1,0 +1,10 @@
+### Daten einlesen
+
+Standortdaten werden u.a. im Dateiformat _.csv_ gespeichert. Diese müssen, bevor sie angezeigt werden können, in das Jupyter Notebook eingelesen werden. Dazu gibt es einen Befehl, den ihr auch in dem unten angegebenen Beispiel seht. Diese müssen wie folgt aussehen:
+
+
+<center>
+	_Datenname = Daten('Dateipfad')_
+</center>
+
+Den Name des Datensatzes könnt ihr euch frei auswählen und vor dem Gleichheitszeichen statt _Datenname_ hinschreiben. Bei _Dateipfad_ schreibt ihr die oben angegebenen Pfade zu den fünf Dateien. Dabei musst du die beiden Striche übernehmen. Ein Beispiel für die Angabe des Dateipfades seht ihr in den unteren Programmcode.

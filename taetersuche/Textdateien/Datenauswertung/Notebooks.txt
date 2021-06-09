@@ -1,0 +1,7 @@
+### Einleitung Jupyter Notebooks
+
+In der heutigen Unterrichtseinheit werden Auswertungen mit __Jupyter Notebooks__ in der Programmiersprache Python erstellt. Jupyter Notebooks sind eine interaktive Entwicklungsumgebung, in der Aufgaben erstellt und die Ergebnisse notiert werden können. Der Code wird dabei Schritt für Schritt ausgeführt.
+
+Der Umgang mit den Jupyter Notebooks wird euch in dem untenstehenden Tutorial Video erklärt.
+
+<video width ="100%" controls src="Tutorial.mp4" />

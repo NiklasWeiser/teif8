@@ -1,0 +1,13 @@
+### Hinweis 3 - Standorte verbinden
+
+Um nun alle Standorte nacheinander zu verbinden, verwende den Befehl _verbindeAlleStandorte(...)_. Dieser wird ebenfalls auf die Karte angewandt. 
+
+Dieser Befehl muss wie folgt aussehen:
+
+
+<center>
+    _meineKarte.verbindeAlleStandorte(pDaten)_
+</center>
+
+_pDaten_ soll dabei durch den jeweiligen Datensatz mit den Standortdaten ersetzt werden.
+

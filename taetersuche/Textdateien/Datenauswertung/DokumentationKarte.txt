@@ -1,0 +1,46 @@
+### Die Klasse Karte
+
+Die Klasse __Karte__ wird zum Erstellen einer Karte verwendet. Weiter kann mit Hilfe der Klasse auf dieser Karte gezeichnet werden. Zunächst muss ein Objekt der Klasse __Karte__ erstellt werden. Bei der Erstellung eines Objekts muss der Karte ein Mittelpunkt in der Form (Breitengrad,Längengrad) übergeben werden. Folgener Aufruf erstellt ein Objekt der Klasse __Karte__:
+
+<br>
+
+<center>
+    _objektname = Karte((Breitengrad,Längengrad))_
+</center>
+
+#### Methoden der Klasse
+
+Die Klasse __Karte__ stellt Methoden zur Verfügung, um einzelne Standorte auf der Karte einzuzeichnen und diese miteinander zu verbinden. Weiter gibt es Methoden, um die Karte anzuzeigen und um eine Heatmap auf der Karte einzuzeichnen. Die Methoden der Klasse __Karte__ sind in der folgenden Tabelle zusammengefasst: <br>
+
+<table width = 100%>    
+        <tr>
+            <th></th>
+            <th>Aufruf der Methode</th>
+            <th>Parameter der Methode</th>
+            <th>Rückgabe der Methode</th>
+        </tr>
+        <tr>
+            <th>Karte anzeigen</th>
+            <td>_objektname.zeigeKarteAn()_</td>
+            <td>keine</td>
+            <td>Die Methode liefert die entsprechende Karte</td>
+        </tr>
+        <tr>
+            <th>Standort einzeichnen</th>
+            <td>_objektname.zeichneStandortEin(standort, farbe)_</td>
+            <td>__standort:__ Bestimmmt den Standort, der eingezeichnet werden soll.<br>__farbe:__ Bestimmt die Farbe des Standorts. Zur Auswahl stehen: 'green', 'blue' und 'red'.</td>
+            <td>keine</td>
+        </tr>
+        <tr>
+            <th>Standorte verbinden</th>
+            <td>_objektname.verbindeStandorte(standortStart, standortZiel)_</td>
+            <td>__standortStart:__ Bestimmmt den Ausgangsstandort der Verbindungslinie.<br>__standortZiel:__ Bestimmmt den Zielstandort der Verbindungslinie.</td>
+            <td>keine</td>
+        </tr>
+        <tr>
+            <th>Heatmap einzeichnen</th>
+            <td>_objektname.zeichneHeatmapEin(koordinaten)_</td>
+            <td>__koordinaten:__ Eine Liste von Koordinaten, welche diejenigen Koordinaten bestimmt, die auf der Heatmap abgebildet werden.</td>
+            <td>keine</td>
+        </tr>
+</table>
